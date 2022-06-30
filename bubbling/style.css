@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px;
+  transition: background 800ms;
+}
+
+html {
+  background: hsl(193, 66%, 55%);
+  font: bold 4rem helvetica, sans-serif;
+  height: 100%;
+}
+
+body {
+  background: hsl(193, 66%, 65%);
+  height: 100%;
+}
+
+div {
+  background: hsl(193, 66%, 75%);
+  height: 100%;
+}
+
+ul {
+  background: hsl(193, 66%, 85%);
+  height: 100%;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  background: hsl(193, 66%, 95%);
+  color: red;
+  height: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.highlight {
+  background: red;
+}
